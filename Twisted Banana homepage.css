@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(white,yellow,orange);
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+li a {
+  font-size: 1.6em;
+  font-family: Verdana;
+  }
+
+.img-fluid {
+  width: 1900px;
+  height: 650px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(white,yellow,orange);
+  font-family: Verdana;
+}

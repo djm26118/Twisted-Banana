@@ -1,13 +1,13 @@
-body {
-  background-image: linear-gradient(white,white,white);
-  font: 16px Montserrat, sans-serif;
-  line-height: 1.8;
+.navbar-brand img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
 }
 
-.jumbotron {
-  background-image: linear-gradient(white,white,orange,white);
+.navbar-dark .navbar-nav .nav-link {
+  color: orange;
 }
-
 
 .order-form .container {
       color: #4c4c4c;
@@ -74,53 +74,31 @@ body {
       padding: 16px;
     }
 
-.navbar-brand img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
+body {
+    font: 16px Montserrat, sans-serif;
+    line-height: 1.8;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-color: pink; /* pink */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
 
-}
+  .bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: orange;
-}
-
-
-.h4 {
-  font-size: 1.7em;
-  font-style: oblique;
-  color: purple;
-}
-
-.container h2 {
-  font-size: 1.7em;
-  font-style: oblique;
-  color: purple;
-}
-
-.container p {
-  padding: 5px;
-font-family: Georgia;
-}
-
-.carousel-inner {
-
-max-height: 600px;
-}
-
-.carousel img {
-  max-height: 600px;
-}
-
-.card-title {
-  font-family: Verdana;
-}
-
-.indigo-text {
-  font-size: 1.5em;
-  font-family: Verdana;
-}
-
-.card-text{
-  font-family: Verdana;
-}
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }

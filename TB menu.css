@@ -1,10 +1,85 @@
 body {
   background-image: linear-gradient(white,white,orange,white);
+  font: 16px Montserrat, sans-serif;
+  line-height: 1.8;
 }
 
-li a {
-  font-family: Verdana;
+.nav {
+  color: blue;
+}
+
+
+  .navbar-brand img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+
   }
+
+  .order-form .container {
+        color: #4c4c4c;
+        padding: 20px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+      }
+
+      .order-form-label {
+        margin: 8px 0 0 0;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .order-form-input {
+        width: 100%;
+        padding: 8px 8px;
+        border-width: 1px !important;
+        border-style: solid !important;
+        border-radius: 3px !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.2em;
+        background-color: transparent;
+        border-color: #cccccc;
+      }
+
+      .btn-submit:hover {
+        background-color: #090909 !important;
+      }
+
+      /* Set a style for all buttons */
+      button {
+        background-color: #e65100 ;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.8;
+        border-radius: 40px;
+      }
+
+      button:hover {
+        opacity:1;
+      }
+
+      /* Extra styles for the cancel button */
+      .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      }
+
+      /* Float cancel and signup buttons and add an equal width */
+      .cancelbtn, .signupbtn {
+        float: left;
+        width: 50%;
+      }
+
+      /* Add padding to container elements */
+      .container {
+        padding: 16px;
+      }
 
 .hovereffect {
 width:100%;
@@ -106,4 +181,9 @@ font-weight: lighter;
 
 h5 a {
   font-family: Verdana;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: orange;
 }

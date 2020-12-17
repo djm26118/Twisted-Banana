@@ -1,22 +1,149 @@
 body {
-  background-image: linear-gradient(white,yellow,orange);
+  background-image: linear-gradient(white,white,orange,white);
+  font: 16px Montserrat, sans-serif;
+  line-height: 1.8;
 }
 
-.nav-item {
-  padding: 10px;
+html,
+body,
+header,
+.view {
+  height: 100%;
 }
 
-li a {
-  font-size: 1.6em;
-  font-family: Verdana;
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
   }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
 
-.img-fluid {
-  width: 1900px;
-  height: 650px;
+
+
+.order-form .container {
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+    .order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-form-input {
+      width: 100%;
+      padding: 8px 8px;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color: transparent;
+      border-color: #cccccc;
+    }
+
+    .btn-submit:hover {
+      background-color: #090909 !important;
+    }
+
+    /* Set a style for all buttons */
+    button {
+      background-color: #e65100;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.8;
+      border-radius: 40px;
+    }
+
+    button:hover {
+      opacity:1;
+    }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+    }
+
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+
+    /* Add padding to container elements */
+    .container {
+      padding: 16px;
+    }
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+
+.btn-white {
+  color: black !important;
+}
+
+h1{
+  font-style: oblique;
+  color: #e65100;
+}
+
+h6 {
+  line-height: 1.7;
+  font-family: Verdana;
+  font-size: 1.1em;
+}
+
+main {
+           padding-top: 3rem;
+           padding-bottom: 2rem;
+       }
+
+       .extra-margins {
+           margin-top: 1rem;
+           margin-bottom: 2.5rem;
+       }
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: orange;
+}
+
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
+}
+
+
+
+.card {
+  width: 100%;
 }
 
 .jumbotron {
-  background-image: linear-gradient(white,yellow,orange);
-  font-family: Verdana;
-}
+            text-align: center;
+        }
